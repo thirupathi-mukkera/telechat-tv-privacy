@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TeleChat TV Privacy Policy</title>
+<meta name="description" content="Privacy policy for TeleChat TV, an unofficial Telegram client for Android TV.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2328;
+    --muted: #59636e;
+    --accent: #0969da;
+    --border: #d1d9e0;
+    --card: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --fg: #e6edf3;
+      --muted: #9198a1;
+      --accent: #4493f8;
+      --border: #3d444d;
+      --card: #151b23;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.3rem; margin: 40px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  h3 { font-size: 1.05rem; margin: 24px 0 4px; }
+  p, ul { margin: 0 0 14px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin-bottom: 24px; }
+  .summary {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+  }
+  .summary ul { margin: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 14px; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border: 1px solid var(--border); }
+  th { background: var(--card); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>TeleChat TV Privacy Policy</h1>
+  <p class="meta">Effective date: 23 October 2026 · App package: <code>com.thiru.tvgram</code></p>
+
+  <p>
+    This policy explains what information TeleChat TV ("the app", "we", "us") handles when you use it on
+    Android TV, where that information goes, and the choices you have. TeleChat TV is an independent app
+    built on the official Telegram API (TDLib). It is not affiliated with, endorsed by or sponsored by
+    Telegram FZ-LLC.
+  </p>
+
+  <div class="summary">
+    <strong>In short</strong>
+    <ul>
+      <li>We do not run our own servers, and we do not collect, sell or receive your messages, contacts or media.</li>
+      <li>Your Telegram data travels directly between your TV and Telegram's servers, encrypted by Telegram's protocol.</li>
+      <li>Watch history, favourites and settings are stored only on your TV.</li>
+      <li>The video player shows ads through Google's Interactive Media Ads (IMA) SDK, which collects device and advertising identifiers.</li>
+      <li>The app has no analytics or crash-reporting SDK.</li>
+    </ul>
+  </div>
+
+  <h2>1. Information handled by the app</h2>
+
+  <h3>1.1 Telegram account and content</h3>
+  <p>
+    You sign in by scanning a QR code with the Telegram app on your phone. If your account has two-step
+    verification, you enter your Telegram password on the TV; it is sent directly to Telegram to complete
+    sign-in and is never stored by the app.
+  </p>
+  <p>
+    Once you are signed in, the app uses TDLib to load your chats, channels, groups, messages, contacts
+    list, profile names and photos, and the photos, videos, audio and files shared in your chats, so that
+    it can display and play them. This data is exchanged directly between your device and Telegram's
+    servers. It is never sent to us or to any other third party. Telegram's handling of this data is
+    governed by the <a href="https://telegram.org/privacy" rel="noopener">Telegram Privacy Policy</a>.
+  </p>
+  <p>
+    When you sign in, TDLib sends Telegram basic session details so the session can be listed in your
+    Telegram "Active sessions": the device model, Android version and app version.
+  </p>
+  <p>
+    The app does not access your TV's own contacts, location, microphone, camera or other files. Its only
+    Android permission is internet access.
+  </p>
+
+  <h3>1.2 Data stored on your device</h3>
+  <p>The following is stored in the app's private storage on your TV and is not uploaded anywhere:</p>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Data</th><th>Purpose</th></tr>
+    <tr><td>Telegram session, message database and media cache (managed by TDLib)</td><td>Keep you signed in, load chats quickly and avoid re-downloading media</td></tr>
+    <tr><td>Watch history: video name, chat name, thumbnail and playback position</td><td>"Continue watching" and resuming playback</td></tr>
+    <tr><td>Favourites (watch list)</td><td>Videos you saved to watch later</td></tr>
+    <tr><td>App preferences, such as your default chat filter</td><td>Remember your settings</td></tr>
+  </table>
+  </div>
+  <p>
+    App data is excluded from Android cloud backup and device-to-device transfer, so it does not leave
+    your TV through backups.
+  </p>
+
+  <h3>1.3 Advertising</h3>
+  <p>
+    Longer videos may include short video ads before, during or after playback. Ads are served by
+    Google's Interactive Media Ads (IMA) SDK and Google Ad Manager. To deliver, measure and limit ads, and
+    to prevent fraud, Google may collect:
+  </p>
+  <ul>
+    <li>your device's advertising ID,</li>
+    <li>IP address and approximate location derived from it,</li>
+    <li>device and app information (model, OS version, language, app ID), and</li>
+    <li>ad interactions, such as impressions, skips and completions.</li>
+  </ul>
+  <p>
+    The app does not share the content of your messages or videos with the ad provider. Google's use of
+    this data is described in
+    <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a>
+    and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.
+  </p>
+  <p>
+    You can reset your advertising ID or opt out of personalised ads in your Android TV settings
+    (usually <em>Settings → Privacy → Ads</em>, or <em>Settings → Device Preferences → About → Ads</em>,
+    depending on your device).
+  </p>
+
+  <h2>2. How information is protected</h2>
+  <ul>
+    <li>Communication with Telegram uses Telegram's MTProto encryption.</li>
+    <li>All other network traffic, including ad requests, is HTTPS only; unencrypted connections are blocked.</li>
+    <li>Local data is kept in the app's private storage, which other apps cannot read.</li>
+    <li>Screenshots and screen recording are blocked while the video player is open.</li>
+  </ul>
+  <p>No method of storage or transmission is completely secure, but we use these measures to protect your information.</p>
+
+  <h2>3. Sharing of information</h2>
+  <p>We do not sell, rent or share your personal information. Data leaves your device only:</p>
+  <ul>
+    <li>to <strong>Telegram</strong>, to provide the Telegram service you signed in to, and</li>
+    <li>to <strong>Google</strong>, through the IMA SDK, to serve ads as described above.</li>
+  </ul>
+
+  <h2>4. Retention and deletion</h2>
+  <ul>
+    <li><strong>Sign out</strong> from the app's settings to end your Telegram session on this TV. This deletes the Telegram data cached by TDLib, your watch history and your app preferences.</li>
+    <li><strong>Clear cache</strong> in the app's settings to delete downloaded media at any time.</li>
+    <li><strong>Uninstall the app</strong>, or clear its storage in Android settings, to remove all data the app stored on the TV, including favourites.</li>
+    <li>You can also end the session remotely from Telegram on another device: <em>Settings → Devices</em>.</li>
+    <li>Data held by Telegram (your account, messages and media) is controlled through Telegram. You can delete your Telegram account at <a href="https://my.telegram.org/delete" rel="noopener">my.telegram.org/delete</a>.</li>
+  </ul>
+  <p>Because we do not hold any of your data on our own servers, there is nothing for us to delete on our side.</p>
+
+  <h2>5. Children's privacy</h2>
+  <p>
+    TeleChat TV is not directed at children under 13, and you must meet Telegram's minimum age
+    requirement to use a Telegram account. We do not knowingly collect personal information from
+    children.
+  </p>
+
+  <h2>6. Your rights</h2>
+  <p>
+    Depending on where you live (for example under the GDPR or CCPA), you may have rights to access,
+    correct or delete your personal information. Since your account data is held by Telegram and your
+    local data stays on your TV, you can exercise these rights through Telegram, through the deletion
+    options above, or by contacting us with any questions.
+  </p>
+
+  <h2>7. Changes to this policy</h2>
+  <p>
+    We may update this policy from time to time. Changes are posted on this page with a new effective
+    date. Continuing to use the app after a change means you accept the updated policy.
+  </p>
+
+  <h2>8. Contact</h2>
+  <p>
+    If you have questions about this policy, contact us at
+    <a href="mailto:contact.telechat@gmail.com">contact.telechat@gmail.com</a>.
+  </p>
+
+  <footer>TeleChat TV · Privacy Policy · Last updated 23 October 2026</footer>
+</main>
+</body>
+</html>
